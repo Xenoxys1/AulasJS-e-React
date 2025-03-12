@@ -1,0 +1,138 @@
+:root {
+  --roboto: "Roboto", sans-serif;
+  --baloo: "Baloo 2", sans-serif;
+
+  --white: #ffffff;
+  --purple-light: #ebe4f9;
+  --purple: #8047f8;
+  --purple-dark: #4b2995;
+  --yellow-light: #f1e9c9;
+  --yellow: #dbac2c;
+  --yellow-dark: #c47f17;
+
+  --title-xl-b: 800 48px/130% var(--baloo);
+  --title-l-b: 800 32px/130% var(--baloo);
+  --title-m-b: 800 24px/130% var(--baloo);
+  --title-s-b: 700 20px/130% var(--baloo);
+  --title-xs-b: 700 18px/130% var(--baloo);
+
+  --text-l-r: 500 20px/130% var(--roboto);
+  --text-m-r: 500 16px/130% var(--roboto);
+  --text-s-r: 400 14px/130% var(--roboto);
+  --text-xs-r: 700 12px/130% var(--roboto);
+  --tag: 700 10px/130% var(--roboto);
+  --button-g: 700 14px/160% var(--roboto);
+  --button-m: 400 12px/160% var(--roboto);
+
+  --background: #fafafa;
+  --base-card: #f3f2f2;
+  --base-input: #ededed;
+  --base-button: #e6e5e5;
+
+  --base-hover: #d7d5d5;
+  --base-label: #8d8686;
+  --base-text: #574f4d;
+  --base-subtitle: #403937;
+  --base-title: #272221;
+}
+
+#card {
+  width: 100%;
+  max-width: 256px;
+  height: 310px;
+  background-color: var(--base-card);
+  border-radius: 6px 36px 6px 36px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coffeeImg {
+  position: absolute;
+  top: -20px;
+}
+
+#tags {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-transform: uppercase;
+
+  margin-top: 100px;
+  margin-bottom: 16px;
+}
+
+#tags span {
+  padding: 4px 8px;
+  border-radius: 100px;
+  color: var(--yellow-dark);
+  background-color: var(--yellow-light);
+  font-size: 10px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  font: var(--title-s-b);
+  color: var(--base-subtitle);
+  margin-bottom: 8px;
+}
+
+.description {
+  font: var(--text-s-r);
+  color: var(--base-label);
+  text-align: center;
+  width: 100%;
+  max-width: 216px;
+  margin-bottom: 33px;
+}
+
+#details {
+  display: flex;
+  align-items: center;
+}
+
+#details span {
+  font-size: var(--text-s-r);
+  color: var(--base-text);
+}
+
+#details span strong {
+  color: var(--base-text);
+  font: var(--title-m-b);
+}
+
+.quantityButtons {
+  display: flex;
+  align-items: center;
+  gap: 3.5px;
+  border-radius: 6px;
+  background-color: var(--base-button);
+  padding: 8.5px 8px;
+  margin-left: 23px;
+  margin-right: 8px;
+}
+
+.quantityButtons button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  color: var(--purple);
+}
+
+.quantityButtons p {
+  font: var(--text-m-r);
+  color: var(--base-title);
+}
+
+.cartBtn {
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  background-color: var(--purple-dark);
+  border-radius: 6px;
+}

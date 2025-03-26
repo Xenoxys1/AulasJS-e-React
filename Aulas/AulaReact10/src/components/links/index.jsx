@@ -45,16 +45,16 @@ export function Links() {
         <button type="button">Conheça o Explorer</button>
       </div>
       <div id="socials">
-        <a href="youtube.com" target="_blank">
+        <a href="https://www.youtube.com/" target="_blank">
           <Youtube size={24} />
         </a>
         <a href="https://github.com/Xenoxys1" target="_blank">
           <Github size={24} />
         </a>
-        <a href="instagram.com" target="_blank">
+        <a href="https://www.instagram.com/" target="_blank">
           <Instagram size={24} />
         </a>
-        <a href="linkedin.com" target="_blank">
+        <a href="https://www.linkedin.com/" target="_blank">
           <Linkedin size={24} />
         </a>
       </div>

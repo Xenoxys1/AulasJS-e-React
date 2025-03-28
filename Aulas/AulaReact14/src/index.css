@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+  --bg-color: #F8FAFC;
+  --title-color: #1E293B;
+  --text-color: #475569;
+  --placeholder-color: #94A3B8;
+  --button-color: #7C3AED;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.s-img {
+  background: url("/assets/background.png") center/cover;
+  flex: 1;
+  height: 100vh;
+}
+
+.s-form {
+  padding-top: 40px;
+  padding-left: 112px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.content {
+  width: 100%;
+  max-width: 384px;
+}
+
+.title {
+  padding-top: 32px;
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 16px;
+  color: var(--title-color);
+}
+
+.desc {
+  font-size: 16px;
+  color: var(--text-color);
+  padding-bottom: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label{
+  color: var(--title-color);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+input {
+  padding: 16px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  outline: none;
+}
+
+input::placeholder {
+  color: var(--placeholder-color);
+}
+
+input:focus, input:hover {
+  border-color: var(--button-color);
+}
+
+.iForgor {
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.iForgor a {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--button-color);
+}
+
+.signIn {
+  background-color: var(--button-color);
+  padding: 16px 0;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+
+.signUp {
+  padding-top: 32px;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.signUp a {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--button-color);
+}

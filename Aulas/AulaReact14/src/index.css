@@ -128,3 +128,12 @@ input:focus, input:hover {
   font-weight: 700;
   color: var(--button-color);
 }
+
+span.error {
+  color: #ed3a5a;
+  font-size: 14px;
+}
+
+input.error {
+  border-color: #ed3a5a;
+}

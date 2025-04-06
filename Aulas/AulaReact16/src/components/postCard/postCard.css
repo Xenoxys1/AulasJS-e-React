@@ -1,0 +1,91 @@
+.posts {
+  width: 832px;
+  height: 621px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: var(--gray2-cards);
+  border-radius: 8px;
+}
+
+.posts .postHeader {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  width: 100%;
+}
+
+.posts .postHeader .nameAndJob {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.posts .postHeader .nameAndJob h1 {
+  font: var(--roboto-bg);
+  color: var(--gray7-text-titles);
+  margin-bottom: 4px;
+}
+
+.posts .postHeader .nameAndJob h2 {
+  font: var(--r-roboto-md);
+  color: var(--gray5-text-apoio);
+}
+
+.posts .postHeader p {
+  white-space: nowrap;
+  font: var(--r-roboto-md);
+  color: var(--gray5-text-apoio);
+}
+
+.posts p {
+  margin-top: 24px;
+  position: relative;
+  font: var(--r-roboto-bg);
+  color: var(--gray6-text);
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.posts hr {
+  border: solid var(--gray3-divider) 1px;
+  width: 100%;
+}
+
+.posts .postComment {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.posts .postComment h1 {
+  position: relative;
+  margin-top: 24px;
+  font: var(--roboto-bg);
+  color: var(--gray7-text-titles);
+  border-radius: 8px;
+}
+
+.posts .postComment textarea {
+  resize: none;
+  height: 96px;
+  width: 752px;
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--gray1-background);
+  color: var(--gray6-text);
+  font: var(--r-roboto-bg);
+}
+
+.posts .postComment button {
+  height: 49px;
+  width: 108px;
+  border: none;
+  background-color: var(--green);
+  border-radius: 8px;
+  color: var(--gray7-text-titles);
+  font: var(--roboto-bg);
+}

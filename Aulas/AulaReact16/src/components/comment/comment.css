@@ -1,0 +1,42 @@
+.comment {
+  display: block;
+  gap: 16px;
+}
+
+.commentBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 16px;
+  width: 686px;
+  height: 120px;
+  padding: 16px;
+}
+
+.commentBox .nameAndTime {
+  display: flex;
+  flex-direction: column;
+}
+
+.commentBox .nameAndTime h1 {
+  font: var(--roboto-md);
+  color: var(--gray7-text-titles);
+}
+
+.commentBox .nameAndTime h2 {
+  font: var(--r-roboto-sm);
+  color: var(--gray5-text-apoio);
+}
+
+.commentBox p {
+  font: var(--r-roboto-md);
+  color: var(--gray7-text-titles);
+}
+
+.commentBox .applause {
+  position: relative;
+  display: block;
+  color: var(--green);
+  font: var(--roboto-md);
+}

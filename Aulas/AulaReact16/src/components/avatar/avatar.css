@@ -1,4 +1,28 @@
-img {
-    width: 49px;
-    height: 49px;
+.avatarSquare {
+  height: 60px;
+  width: 60px;
+  border-radius: 8px;
+  border: solid var(--green-light) 2px;
+  background-color: var(--gray2-cards);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  overflow: hidden;
+}
+
+.avatar-image-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
 }

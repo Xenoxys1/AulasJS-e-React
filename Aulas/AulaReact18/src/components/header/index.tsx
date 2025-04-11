@@ -1,12 +1,14 @@
-import logoImg from "/logo.svg";
-import "./header.css";
+import logoImg from "../../assets/logo.svg";
 import { Form } from "../form";
+import { FormProps } from "../../types/todo";
 
-export function Header(){
-    return(
-        <header>
-            <img src ={logoImg} alt="todo logo"/>
-            <Form/>
-        </header>
-    );
+import "./styles.css";
+
+export function Header({ onAddTodo }: FormProps) {
+  return (
+    <header>
+      <img src={logoImg} alt="to do logo" />
+      <Form onAddTodo={onAddTodo} />
+    </header>
+  );
 }
